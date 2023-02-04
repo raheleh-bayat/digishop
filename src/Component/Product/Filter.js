@@ -1,6 +1,6 @@
 
 
-function Filter(param) {
+function Filter() {
   return (
     <div className="card">
 	<article className="filter-group">

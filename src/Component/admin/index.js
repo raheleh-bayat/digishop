@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Product from "./product";
-import Cart from "../Cart";
+import Cart from "../Cart/Cart";
 import Productlist from "./productList";
 
 const Admin = () => {

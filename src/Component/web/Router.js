@@ -1,13 +1,12 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Login from "../Login";
+import Login from "../Enters/Login";
 import Productlist from "../Product/ProductPage";
 import Admin from "../admin";
-import Sign from "../Sign";
-import Tab1 from "../Tab1";
-import Cart from "../Cart";
-import CartBadge from "../CartBadge";
+import Sign from "../Enters/Sign";
+// import Tab1 from "../Tab1";
+import Cart from "../Cart/Cart";
+import CartBadge from "../Cart/CartBadge";
 import { propTypes } from "react-bootstrap/esm/Image";
-import Timer from "../timer";
 import {useDispatch, useSelector} from 'react-redux';
 import addProduct from "../../actions/product"
 import Product from "../admin/product"
@@ -106,14 +105,11 @@ function Router(props) {
                
                
               </ul>
-              <Timer/>
-
               <form className="d-flex" role="search">
                 <input
                   className="form-control me-2"
                   type="search"
                   placeholder="Search"
-                  aria-label="Search"
                 />
                 <button className="btn btn-outline-success" type="submit">
                   Search
@@ -132,7 +128,7 @@ function Router(props) {
             element={<Login placeholder={props.placeholder} />}
           />
           <Route path="admin" element={<Admin />}>
-            <Route path="tab1" element={<Tab1 />} />
+            {/* <Route path="tab1" element={<Tab1 />} /> */}
           </Route>
           <Route path="sign" element={<Sign />} />
           <Route path="cart" element={<Cart />} />

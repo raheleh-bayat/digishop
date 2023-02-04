@@ -3,7 +3,7 @@ import { setNestedObjectValues } from "formik";
 import React, { useState } from "react";
 import Filter from "./Filter";
 import List from "./List";
-import Button from "../CartBadge";
+import Button from "../Cart/CartBadge";
 import {useSelector} from 'react-redux';
 
 const Productlist = (props) => {

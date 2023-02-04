@@ -125,14 +125,6 @@ a:link{
   color: black;
   flex-direction: row!important;
 }
-/* .btn-cart{
-  border: none;
-  background-color: gray;
-  font-size: 0.9rem;
-  border-radius: 0.3rem;
-  padding: 0.3rem 1rem;
-  font: inherit;
-} */
 li{
   list-style-type: none;
 }
@@ -155,9 +147,6 @@ li{
   display: grid;
   margin: 15px;
 }
-/*
-    DEMO STYLE
-*/
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
@@ -202,20 +191,6 @@ a:focus {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
-/* #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
-}
-
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
-}
-
-a[data-toggle="collapse"] {
-    position: relative;
-} */
 
 .dropdown-toggle::after {
     display: block;
@@ -224,12 +199,6 @@ a[data-toggle="collapse"] {
     right: 20px;
     transform: translateY(-50%);
 }
-/* 
-a.article,
-a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-} */
 
 @media (max-width: 768px) {
     #sidebar {
@@ -254,3 +223,8 @@ a.article:hover {
   background-color: #999;
   transition: all 0.5s;
 }
+/* .changecolor-div{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+} */

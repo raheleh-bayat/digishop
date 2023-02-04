@@ -1,4 +1,4 @@
-import "./../Css/Design.css";
+import "../../Css/Design.css";
 import React, { useState ,useEffect , useRef} from "react";
 
 const Sign = () => {
@@ -6,11 +6,6 @@ const Sign = () => {
   const[formvalues,setvalues]=useState(intialvalues);
   const[formerrors,seterrors]=useState(intialvalues);
   const[formsubmit,setsubmit]=useState(false);
-  // const useRef =useRef(null);
-
-// useEffect(()=>{
-//   useRef.current.focus();
-// },[])
 
   const handelsubmit = (ev) => {
     ev.preventDefault();
