@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import addProduct from "../../actions/product";
 import { useNavigate } from "react-router-dom";
 import ImageUplaoder from "../Imageuploder/image";
-import './product.css';
+import "./product.css";
 
 export default function Product() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ export default function Product() {
   const [productForm, setProductForm] = useState({
     product_name: "",
     product_price: "",
-    product_image : "",
+    product_image: "",
   });
 
   const handlerProductForm = (ev) => {
@@ -33,10 +33,7 @@ export default function Product() {
       <form className="container" onSubmit={handelersubmit}>
         <div className="form-group">
           <label for="exampleInputEmail1"></label>
-          <ImageUplaoder
-            className="form-control"
-            productForm={productForm}
-          />
+          <ImageUplaoder className="form-control" productForm={productForm} />
           <small id="emailHelp" className="form-text text-muted"></small>
         </div>
 
@@ -51,9 +48,6 @@ export default function Product() {
           />
           <small id="emailHelp" className="form-text text-muted"></small>
         </div>
-
-
-
         <div className="form-group">
           <label for="exampleInputPassword1"></label>
           <input
@@ -70,7 +64,13 @@ export default function Product() {
           type="submit"
           className="btn btn-primary  product-btn"
           onClick={() => {
-            addtoproduct(addProduct(productForm.product_image,productForm.product_name,productForm.product_price));
+            addtoproduct(
+              addProduct(
+                productForm.product_image,
+                productForm.product_name,
+                productForm.product_price
+              )
+            );
             navigate("/products");
           }}
         >
