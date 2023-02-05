@@ -1,0 +1,30 @@
+.form-div{
+ 
+}
+.btn-submit-login{
+  width: 300px;
+  height: 40px;
+  margin-top: 180px;
+  /* margin-right: 350px; */
+  border-radius: 100px;
+}
+.form-input-form{
+    width: 300px;
+}
+.line{
+  border:solid white;
+  width: 300px;
+  border-bottom: 2rem;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.line-error{
+  float: left ;
+  border: 1 px solid red;
+  color: red;
+  /* margin: 5px; */
+}
+.form-parent-div{
+    position: absolute;
+    left:570px;
+}

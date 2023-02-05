@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import addProduct from "../../actions/product";
 import { useNavigate } from "react-router-dom";
 import ImageUplaoder from "../Imageuploder/image";
+import './product.css';
 
 export default function Product() {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ export default function Product() {
   // const addtoproduct = useDispatch();
 
   return (
-    <div className="div-main">
+    <div className="div-main main-admin">
       <form className="container" onSubmit={handelersubmit}>
         <div className="form-group">
           <label for="exampleInputEmail1"></label>
@@ -67,7 +68,7 @@ export default function Product() {
 
         <button
           type="submit"
-          className="btn btn-primary btn-submit"
+          className="btn btn-primary  product-btn"
           onClick={() => {
             addtoproduct(addProduct(productForm.product_image,productForm.product_name,productForm.product_price));
             navigate("/products");
