@@ -1,4 +1,4 @@
-
+import './product.css';
 
 function Filter() {
   return (
