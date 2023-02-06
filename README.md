@@ -47,10 +47,6 @@ This will create a `build` directory with the optimized production version of th
 - CSS
 - JavaScript
 
-## Author
-
-[YOUR NAME]
-
 ## Acknowledgments
 
 - Inspiration from [example website or source]
