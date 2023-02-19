@@ -5,9 +5,13 @@ A shopping cart application developed to allow users to purchase items online wi
 ## Features
 
 - Dynamic updates of cart items, prices, and quantities in real-time
+
 - Option to add, remove, and adjust the quantities of items in the cart
+
 - Reusable components for easy maintenance and scalability
+
 - User-friendly interface with intuitive navigation
+
 
 ## Getting Started
 
@@ -46,9 +50,4 @@ This will create a `build` directory with the optimized production version of th
 - HTML
 - CSS
 - JavaScript
-
-## Acknowledgments
-
-- Inspiration from [example website or source]
-- Dynamic updates using [example library or source]
 
